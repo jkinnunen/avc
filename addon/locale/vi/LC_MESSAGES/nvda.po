@@ -9,14 +9,40 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2025-06-29 20:26+0200\n"
-"PO-Revision-Date: 2024-04-21 11:56+0700\n"
+"PO-Revision-Date: 2026-01-26 04:15+0700\n"
 "Last-Translator: nguyenninhhoang <nguyenninhhoang2005@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.8\n"
+
+#. Translators: Checkbox name in the configuration dialog  for youtube subtitle
+#. self.YouTubeSubtitleChk = helper.addItem(wx.CheckBox(self, label=_("Always generate youtube &subtitle (needs more time)")))
+#. self.YouTubeSubtitleChk.Bind(wx.EVT_CHECKBOX, self.onChk)
+#. self.YouTubeSubtitleChk.Value = getINI("YouTubeSubtitle")
+#. Translators: Checkbox name in the configuration dialog  for youtube Playlist
+#: addon\globalPlugins\AVC\__init__.py:878
+msgid "Download the &play list completely"
+msgstr ""
+
+#. Translators: Checkbox name in the configuration dialog  for youtube Channel
+#: addon\globalPlugins\AVC\__init__.py:883
+msgid "Download the &channel completely"
+msgstr ""
+#. Translators: A system error message to translate
+#: addon\globalPlugins\AVC\__init__.py:1012
+#, python-brace-format
+msgid ""
+"Unable to download video subtitles for {language}: HTTP Error 429: Too Many "
+"Requests"
+msgstr ""
+#. Translators: Error, if subtitle is not available
+#: addon\globalPlugins\AVC\__init__.py:1018
+#, python-brace-format
+msgid "Error: {error}"
+msgstr ""
 
 #. Translators: Title of the window if an error occurred during unpacking.
 #: addon\installTasks.py:63
@@ -30,72 +56,71 @@ msgid ""
 "Try it yourself locally or contact the author of this extension."
 msgstr ""
 "Không thể giải nén tệp {file} chính xác trong thư mục {folder}.\n"
-"Hãy tự mình thử tại địa phương hoặc liên hệ với tác giả của tiện ích mở rộng "
-"này."
+"Hãy tự mình thử tại vị trí hoặc liên hệ với tác giả của tiện ích mở rộng này."
 
 #. Translators: Could not create  folder.
 #: addon\globalPlugins\AVC\__init__.py:354
 msgid "Error - can not create folder"
-msgstr "lỗi - không thể tạo thư mục"
+msgstr "Lỗi - không thể tạo thư mục"
 
 #. Translators: The user is not in a browser.
 #: addon\globalPlugins\AVC\__init__.py:408
 msgid "No browser window found"
-msgstr "không tìm thấy trình duyệt"
+msgstr "Không tìm thấy cửa sổ trình duyệt"
 
 #. Translators: No URL found in browser document, function terminate
 #: addon\globalPlugins\AVC\__init__.py:598
 #: addon\globalPlugins\AVC\__init__.py:870
 msgid "Document URL not found - exit"
-msgstr "không tìm thấy URL tài liệu hướng dẫn - thoát"
+msgstr "Không tìm thấy URL tài liệu hướng dẫn - thoát"
 
 #. Translators: save YouTube Video as MP3 or MP4
 #: addon\globalPlugins\AVC\__init__.py:609
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Save YouTube Video as {MultimediaFormat}"
-msgstr "Lưu video YouTube với {định dạng đa phương tiện}"
+msgstr "Lưu video YouTube dưới {MultimediaFormat}"
 
 #. Translators: save multimedia link  as MP3 or MP4
 #: addon\globalPlugins\AVC\__init__.py:636
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Save link as {MultimediaFormat}"
-msgstr "lưu link với định dạng đa phương tiện"
+msgstr "Lưu liên kết dưới {MultimediaFormat}"
 
 #. Translators: No YouTube video and no multimedia link found
 #: addon\globalPlugins\AVC\__init__.py:643
 msgid "No YouTube video and no multimedia link found"
-msgstr "không có YouTube video và không có link đa phương tiện"
+msgstr "Không có video YouTube và không có liên kết đa phương tiện"
 
 #. this groupBox code is based on "NVDA Dev & Test Toolbox" from Cyrille Bougot, thanks
 #. Translators: This is a label for an edit field in the AVC Settings panel.
 #: addon\globalPlugins\AVC\__init__.py:653
 msgid "Result folder"
-msgstr "kết quả thư mục"
+msgstr "Kết quả thư mục"
 
 #. Translators: The label of a button to browse for a directory
 #: addon\globalPlugins\AVC\__init__.py:658
 msgid "&Browse..."
-msgstr "&thay đổi"
+msgstr "&Duyệt"
 
 #. Translators: The title of the dialog presented when browsing for the directory.
 #: addon\globalPlugins\AVC\__init__.py:660
 msgid "Select a directory"
-msgstr "chọn đường dẫn"
+msgstr "Chọn đường dẫn"
 
 #. Translators: Checkbox name for sound signal feedback in the configuration dialog
 #: addon\globalPlugins\AVC\__init__.py:667
 msgid "&beep while converting"
-msgstr "&beep trong khi chuyển đổi "
+msgstr "&Beep trong khi chuyển đổi "
 
 #. Translators: Checkbox name in the configuration dialog
 #: addon\globalPlugins\AVC\__init__.py:671
 msgid "&Write YoutTube description file"
-msgstr "&viết báo cáo tệp mô tả YouTube"
+msgstr "&Viết báo cáo tệp mô tả YouTube"
 
 #. Translators: Checkbox name in the configuration dialog
 #: addon\globalPlugins\AVC\__init__.py:675
 msgid "Write &report file"
-msgstr "viết &báo cáo tập tin"
+msgstr "Viết &báo cáo tập tin"
 
 #. Translator: Title of error dialog "Folder does not exist"
 #: addon\globalPlugins\AVC\__init__.py:686
@@ -141,31 +166,31 @@ msgstr "Không có tác vụ chuyển đổi nào đang hoạt động."
 
 #: addon\globalPlugins\AVC\__init__.py:830
 msgid "Save as MP3"
-msgstr "lưu dưới dạng MP3"
+msgstr "Lưu dưới dạng MP3"
 
 #: addon\globalPlugins\AVC\__init__.py:838
 msgid "Save as MP4"
-msgstr "lưu dưới dạng MP4"
+msgstr "Lưu dưới dạng MP4"
 
 #: addon\globalPlugins\AVC\__init__.py:846
 msgid "Open result folder"
-msgstr "mở kết quả thư mục"
+msgstr "Mở kết quả thư mục"
 
 #: addon\globalPlugins\AVC\__init__.py:856
 msgid "Saves the subtitle of a YouTube video"
-msgstr ""
+msgstr "Lưu phụ đề của video YouTube"
 
 #. Translators: Save the subtitle in the specified language
 #: addon\globalPlugins\AVC\__init__.py:879
 #, python-brace-format
 msgid "Save subtitle in {language}"
-msgstr ""
+msgstr "Lưu phụ đề trong {language}"
 
 #. Translators: No YouTube video link found
 #: addon\globalPlugins\AVC\__init__.py:900
 #, fuzzy
 msgid "No YouTube video link found"
-msgstr "không có YouTube video và không có link đa phương tiện"
+msgstr "Không tìm thấy liên kết video YouTube"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
@@ -185,6 +210,12 @@ msgid ""
 "\tNVDA+Control+y, Opens the folder with the converted files\n"
 "\tNVDA+Alt+y, Saves the subtitle of the video as text."
 msgstr ""
+"Chuyển đổi video YouTube hoặc liên kết đa phương tiện sang MP3 hoặc MP4 trực "
+"tiếp từ trình duyệt:\n"
+"\tNVDA+y, Chuyển đổi video hiện tại sang mp3\n"
+"\tNVDA+Shift+y, Chuyển đổi video hiện tại sang mp4\n"
+"\tNVDA+Control+y, Mở thư mục với file đã chuyển đổi\n"
+"\tNVDA+Alt+y, Lưu phụ đề của video dưới dạng văn bản"
 
 #~ msgid ""
 #~ "Converts a YouTube video or a multimedia link to MP3 or MP4 directly from "
